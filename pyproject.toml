@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "solver-captcha"
+version = "0.1.0"
+description = ""
+authors = ["Willian <williank97@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ipykernel = "^6.29.5"
+requests = "^2.32.3"
+opencv-python = "^4.10.0.84"
+matplotlib = "^3.9.1"
+opencv-contrib-python = "^4.10.0.84"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
